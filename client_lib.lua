@@ -13,17 +13,18 @@ getgenv().Config = {
         ["Lock Base Extra Time"] = 5,
     },
     ["Misc"] = {
-        ["Kick if Ping above"] = 1000,
-        ["Kick if FPS below"] = 2,
+        ["Kick if Ping above"] = 2500,
+        ["Kick if FPS below"] = 1,
         ["Max Rebirth"] = 9,
-        ["Rare Animal Generation"] = "10M",
-        ["Only keep Secret if Cash Cap"] = true,
+        ["Rare Animal Generation"] = "20M",
+        ["Only keep Secret if Cash Cap"] = false,
         ["Ignore Secret"] = {},
         ["Auto Fuse"] = {
-            ["Enable"] = true,
-            ["Fuse Animal"] = "All",
+            ["Enable"] = false,
+            ["Fuse Animal"] = {},
         },
         ["Buy Lucky Block"] = {
+            "Premium Festive Lucky Block",
             "Secret Lucky Block",
             "Festive Lucky Block",
             "Admin Lucky Block",
@@ -39,9 +40,14 @@ getgenv().Config = {
             "Spooky Lucky Block",
             "Los Taco Blocks",
         },
+        ["Rare Lucky Block"] = {
+            "Secret Lucky Block",
+            "Premium Festive Lucky Block",
+            "Festive Lucky Block",
+        },
     },
     ["Performance"] = {
-        ["FPS Cap"] = 7,
+        ["FPS Cap"] = 6,
         ["Black Screen"] = true,
     },
     ["Webhook"] = {
@@ -69,6 +75,9 @@ getgenv().Config = {
             ["Perrito Burrito"] = {"All"},
             ["La Grande Combinasion"] = {"All"},
             ["Chicleteira Bicicleteira"] = {"All"},
+            ["Santteo"] = {"All"},
+            ["Reindeer Tralala"] = {"All"},
+            ["Festive Lucky Block"] = {"All"},
         },
     },
 }
@@ -186,3 +195,4 @@ spawn(function()
     game:GetService("RunService").Heartbeat:Connect(instantKick)
 
 end)
+
