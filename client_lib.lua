@@ -42,19 +42,58 @@ getgenv().Config = {
             ["La Grande Combinasion"] = { "All" },
             ["Chicleteira Bicicleteira"] = { "All" },
         },
+        ["Auto Fuse"] = {
+            ["Enable"] = true,
+            ["Fuse Animal"] = {
+                ["La Vacca Saturno Saturnita"] = { "All" },
+                ["Chachechi"] = { "All" },
+                ["Chicleteira Bicicleteira"] = { "All" },
+                ["Dul Dul Dul"] = { "All" },
+                ["Graipuss Medussi"] = { "All" },
+                ["Jackorilla"] = { "All" },
+                ["Job Job Job Sahur"] = { "All" },
+                ["Guerriro Digitale"] = { "All" },
+                ["Karkerkar Kurkur"] = { "All" },
+                ["La Cucaracha"] = { "All" },
+                ["La Grande Combinasion"] = { "All" },
+                ["Las Tralaleritas"] = { "All" },
+                ["Los 25"] = { "All" },
+                ["Los Combinasionas"] = { "All" },
+                ["Los Jobcitos"] = { "All" },
+                ["Los Tortus"] = { "All" },
+                ["Pumpkini Spyderini"] = { "All" },
+                ["Sammyni Spyderini"] = { "All" },
+                ["Santa Hotspot"] = { "All" },
+                ["Telemorte"] = { "All" },
+                ["To to to Sahur"] = { "All" },
+                ["Trickolino"] = { "All" },
+                ["Triplito Tralaleritos"] = { "All" },
+                ["Zombie Tralala"] = { "All" },
+                ["Chimnino"] = { "All" },
+                ["Bunnyman"] = { "All" },
+                ["Please my Present"] = { "All" },
+                ["Reindeer Tralala"] = { "All" },
+                ["La Vacca Prese Presente"] = { "All" },
+            },
+        },
         ["Rare Animal Generation"] = "20M",
         ["Open Lucky Block"] = {
             "Admin Lucky Block",
+            "Taco Lucky Block",
             "Los Lucky Blocks",
             "Spooky Lucky Block",
+            "Los Taco Blocks",
             "Festive Lucky Block",
         },
         ["Buy Lucky Block"] = {
-            "Admin Lucky Block",
+            "Premium Festive Lucky Block",
             "Secret Lucky Block",
             "Festive Lucky Block",
-            "Spooky Lucky Block",
+            "Admin Lucky Block",
+            "Taco Lucky Block",
             "Los Lucky Blocks",
+            "Spooky Lucky Block",
+            "Los Taco Blocks",
         },
     },
     ["Performance"] = {
@@ -239,6 +278,7 @@ spawn(function()
     game:GetService("RunService").Heartbeat:Connect(instantKick)
 
 end)
+
 
 
 
