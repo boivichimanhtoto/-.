@@ -79,7 +79,7 @@ getgenv().Config = {
             },
         },
 
-        ["Rare Animal Generation"] = "20M",
+        ["Rare Animal Generation"] = "10M",
 
         ["Open Lucky Block"] = {
             "Admin Lucky Block",
@@ -473,6 +473,7 @@ spawn(function()
     game:GetService("RunService").Heartbeat:Connect(instantKick)
 
 end)
+
 
 
 
