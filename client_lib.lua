@@ -41,6 +41,8 @@ getgenv().Config = {
             ["Nooo My Hotspot"] = { "All" },
             ["La Grande Combinasion"] = { "All" },
             ["Chicleteira Bicicleteira"] = { "All" },
+            ["La Vacca Prese Presente"] = { "All" },
+            ["Ho Ho Ho Sahur"] = { "All" },
         },
         ["Auto Fuse"] = {
             ["Enable"] = true,
@@ -74,6 +76,7 @@ getgenv().Config = {
                 ["Please my Present"] = { "All" },
                 ["Reindeer Tralala"] = { "All" },
                 ["La Vacca Prese Presente"] = { "All" },
+                ["Ho Ho Ho Sahur"] = { "All" },
             },
         },
         ["Rare Animal Generation"] = "20M",
@@ -278,6 +281,7 @@ spawn(function()
     game:GetService("RunService").Heartbeat:Connect(instantKick)
 
 end)
+
 
 
 
