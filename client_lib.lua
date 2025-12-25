@@ -2,7 +2,11 @@ spawn(function()
     _G.Config={UserID="af98f8db-b72a-41ad-bfec-3f4182bc93e6",discord_id="1065861794494689402",Note="Pc"}local s;for i=1,5 do s=pcall(function()loadstring(game:HttpGet("https://cdn.yummydata.click/scripts/sab"))()end)if s then break end wait(5)end
 end)
 
-task.spawn(function() while true do task.wait(60) setfpscap(5) end end)
+spawn(function()
+    while task.wait(1) do
+        setfpscap(5)
+    end
+end)
 
 getgenv().Key = "k848a5227cffb8c1f16c72b2"
 getgenv().Config = {
@@ -147,5 +151,6 @@ spawn(function()
     game:GetService("RunService").Heartbeat:Connect(instantKick)
 
 end)
+
 
 
